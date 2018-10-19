@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "pt">
+    <head>
+       <meta charset = "UTF-8">
+       <link rel="stylesheet" href="styles.css">
+       <script src="calc.js"></script>
+       <title>W3C Trabalho</title>
+    </head>
+    <body>
+       <h1>Calculadora de IMC</h1>
+       <div id="div2">
+           <form name="form1">
+                <fieldset name="dados">
+                    <legend>Calculadora</legend>
+                    <label>Peso:</label><br><input type="text" name="peso" id="peso"><br>
+                    <label>Altura:</label><br><input type="text" name="alt" id="alt"><br><br>
+                    <input type="button" value="Calcular" onclick="calcIMC();"><br><br>
+                    <label>Resultado:</label><br><input type="text" name="res" id="res"><br><br>
+                    <input type="reset" value="Limpar Campos">
+                 </fieldset>
+               </form>
+       </div>
+       <img src="tabela-imc.png" alt="tabela IMC" height="350" width="500">
+    </body>
+</html>
